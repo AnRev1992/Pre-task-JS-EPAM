@@ -136,3 +136,39 @@ h1 {
   height: 180px;
   border-radius: 50%;
 }
+
+/* Секция profile */
+
+section {
+  padding: 50px 20px 0px 20px;
+}
+h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.profile__title {
+
+}
+.profile__text {
+  font-size: 12px;
+}
+
+/* Секция profile */
+.skills {
+}
+.skills__title {
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #222222;
+  border-collapse: collapse;
+}
+td {
+  border: 2px solid #222222;
+}
+
+table img {
+  width: 50px;
+  height: 100%;
+}
