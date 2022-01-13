@@ -212,3 +212,7 @@ table img {
   width: 150px;
   
 }
+
+#telValidatorMessage{
+  color: red;
+}

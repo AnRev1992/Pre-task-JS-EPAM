@@ -21,7 +21,7 @@
             <a href="tel:+375291789072">+375(29) 178-90-72</a>
           </div>
           <div class="header__email">
-            <a href="mailto:an.reviakou@gmail.com">an.reviakou@gmail.com</a>
+            <a class="email__link" href="mailto:an.reviakou@gmail.com">an.reviakou@gmail.com</a>
           </div>
         </div>
       </div>
@@ -123,17 +123,16 @@
       </section>
       <section class="form">
         <h2 class="form__title">Форма</h2>
-        <form action="#" id="form" class="form__body">
-          <div class="form__item">
-            <label for="comment" class="form__label">Введите комментарий:</label>
-            <textarea name="comment" id="comment" class="form__comment"></textarea>
-          </div>
-          <button class="form__button">Проверить</button>
-          <div class="form__item">
-            <label for="tel" class="form__label">Введите номер телефона:</label>
-            <input type="tel" id="tel">
-          </div>
-        </form>
+        <div class="form__item">
+          <label for="comment" class="form__label">Введите комментарий:</label>
+          <textarea name="comment" title="комментарий" id="comment" class="form__comment"></textarea>
+        </div>
+        <button class="form__button">Проверить</button>
+        <div class="form__item">
+          <label for="tel" class="form__label">Введите номер телефона:</label>
+          <input id="tel" placeholder="+375YYXXXXXXX">
+          <label id="telValidatorMessage"></label>
+        </div>
       </section>
     </main>
     <footer class="footer">
