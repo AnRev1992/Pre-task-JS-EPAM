@@ -1,0 +1,253 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+/* Обнуляющий стиль */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {  
+  scroll-behavior: smooth; 
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+input, button, textarea {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+
+/* Основной стиль */
+
+.container {  
+  width: 1024px;
+  margin: 0 auto;
+  background: radial-gradient(circle, rgba(141,173,242,0.7) 0%, rgba(255,255,255,1) 100%);
+}
+.header {
+  height: 220px;
+  display: flex;
+}
+
+h1 {
+  padding: 45px 0px 0px 20px ;
+  font-size: 44px;
+  line-height: 57px;
+  color: #222222;
+}
+.header__title {
+  width: 60%;
+}
+.header__subtitle {
+  padding: 0px 0px 0px 20px ;
+  font-size: 24px;
+  color: #851BD9;
+}
+.header__text {
+  padding: 15px 0px 0px 20px ;
+  font-size: 18px;
+  color: #222222;
+}
+.header__contacts {
+  padding: 15px 0px 0px 20px ;
+  display: flex;
+  font-size: 12px;
+
+}
+.header__contacts a {
+  color: #222222;
+}
+.header__phone-number {
+  padding: 0px 25px 0px 0px;
+}
+.header__email {
+}
+.header__logo {
+  width: 40%;
+  margin-top: 20px;
+}
+.header__logo img {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+/* Секция profile */
+
+section {
+  padding: 50px 20px 0px 20px;
+}
+h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.profile__title {
+
+}
+.profile__text {
+  font-size: 12px;
+}
+
+/* Секция profile */
+.skills {
+}
+.skills__title {
+}
+table {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #222222;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #222222;
+  padding: 5px;
+}
+th {
+  border: 2px solid #222222;  
+  font-size: 18px;
+  padding: 5px;
+}
+tr td:first-child {
+  text-align:center;
+ }
+td:nth-child(2) {
+  text-align:center;
+ }
+
+table img {
+  width: 50px;
+  height: 100%;
+}
+
+.education__table td:nth-child(3) {
+  text-align:center;
+}
+
+.skills__table td:nth-child(3) {
+
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px 0px 20px;
+  align-items: center;
+}
+.footer__link {
+  height: 150px;
+  width: 100px;
+}
+.footer__link img {
+ width: 100%;
+ padding-top: 40px;
+}
+
+.footer__item {
+  width: 150px;
+}
+
+/* Секция Form */
+
+.form__item {
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
+
+}
+textarea {
+  resize: none;
+  height: 25px;
+  width: 200px;
+}
+
+.form__button {
+  color: #234499;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 25px;
+  background: transparent;
+  transition: all 0.3s ease;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  font-size: 18px;
+}
+
+label {
+  padding: 25px;
+}
+
+.form__button:hover {
+  color: #000;
+}
+
+#telValidatorMessage{
+  color: #123077;
+  font-size: 18px;
+}

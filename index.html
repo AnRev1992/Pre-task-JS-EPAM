@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Anatoli Reviakou</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__title">
+        <h1>Anatoli Reviakou</h1>
+        <div class="header__subtitle">Junior frontend developer </div>
+        <div class="header__text">A passionate web developer, solving problems, and detail attention oriented.</div>
+        <div class="header__contacts">
+          <div class="header__phone-number">
+            <a href="tel:+375291789072">+375(29) 178-90-72</a>
+          </div>
+          <div class="header__email">
+            <a class="email__link" href="mailto:an.reviakou@gmail.com">an.reviakou@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__logo">
+        <img src="./assets/avatar.jpg" alt="avatar">
+      </div>
+    </header>
+    <main>
+      <section class="profile">
+        <h2 class="profile__title">Profile</h2>
+        <div class="profile__text">I'm 29 years old. I work as a team leader in an oil company. I decide
+          to change my profession and do what I always like. I am actively learning Javascript & English now.
+          And I want to grow as a front-end engineer in the future. I am interested in the following technologies:
+          Vanilla JS, React, Typescript, NodeJS, Git, Webpack.
+        </div>
+      </section>
+      <section class="skills">
+        <h2 class="skills__title">
+          Skills
+        </h2>
+        <table class="skills__table">
+          <tbody>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+              <th>Technologies</th>
+            </tr>
+            <tr>
+              <td>HTML5</td>
+              <td>Basic</td>
+              <td>Tags, tables, forms, semantic HTML, BEM & etc.</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>Basic</td>
+              <td>Colour, text & fonts, position, box model, flexbox, adaptive</td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td>Fundamentals</td>
+              <td>Data types, operators, functions, array, odject, DOM & etc.</td>
+            </tr>
+            <tr>
+              <td>Git & command line</td>
+              <td>Basic</td>
+              <td>Git operations, GitHub & Markdown, branching, deploying & command work</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="education">
+        <h2 class="education__title">Education</h2>
+        <table class="education__table">
+          <tbody>
+            <tr>
+              <th>University/courses</th>
+              <th>Specialty/theme of the course</th>
+              <th>Time</th>
+              <th>Links</th>
+            </tr>
+            <tr>
+              <td>Belarusian National Technical University</td>
+              <td>Mining Engineering and Engineering Ecology Faculty, mining engineer</td>
+              <td>2009-2014</th>
+              <td>
+                <a href="https://bntu.by/">
+                  <img src="./assets/logo_BNTU.png" alt="logo-bntu">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Хекслет</td>
+              <td>Основы командной строки</td>
+              <td>Dec. 2021</td>
+              <td td rowspan="2">
+                <a href="https://ru.hexlet.io/">
+                  <img src="./assets/hexlet-logo.jpg" alt="logo-hexlet">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Хекслет</td>
+              <td>Введение в Git</td>
+              <td>Dec. 2021</td>
+
+            </tr>
+            <tr>
+              <td>RS School JS</th>
+              <td>JS/Frontend Stage 0</td>
+              <td>Dec. 2021 - Currently</th>
+              <td>
+                <a href="https://rs.school/">
+                  <img src="./assets/rs_school.svg" alt="logo-rss">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="form">
+        <h2 class="form__title">Форма</h2>
+        <div class="form__item">
+          <label for="comment" class="form__label">Введите комментарий:</label>
+          <textarea name="comment" title="комментарий" id="comment" class="form__comment"></textarea>
+        </div>
+        <div class="form__item">
+          <button class="form__button">Проверить</button>
+        </div>
+        <div class="form__item">
+          <label for="tel" class="form__label">Введите номер телефона:</label>
+          <input id="tel" placeholder="+375YYXXXXXXX">
+          <label id="telValidatorMessage"></label>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__link">
+        <a href="https://github.com/AnRev1992"><img src="./assets/logo-github.png" alt="github"></a>
+      </div>
+      <div class="footer__item">2022</div>
+      <div class="footer__item">Анатолий Ревяков</div>
+    </footer>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
