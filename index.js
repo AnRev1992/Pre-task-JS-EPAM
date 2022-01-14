@@ -8,7 +8,7 @@ let clickReviewButtonFunction = () => {
   let regex = /^\+375(\d{9})$/
   let numberIsValid = regex.test(telInput.value)
   let validationMessage = document.querySelector("#telValidatorMessage")
-  validationMessage.textContent = numberIsValid ? "валидный" : "не валидный"
+  validationMessage.textContent = numberIsValid ? "номер верный" : "номер неверный"
 }
 
 
